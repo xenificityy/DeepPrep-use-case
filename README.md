@@ -36,7 +36,7 @@ Before beginning, ensure that you can:
 1. Log in to your **FABRIC Portal** and create a **single-node machine** with:
    - 8 vCPUs  
    - 16 GB RAM  
-   - 1 NVIDIA GPU (e.g., A100, V100, or L40S)
+   - 1 NVIDIA GPU (e.g., T4, RTX, A30 or A40)
 2. Once provisioned, SSH into your node:
    ```bash
    ssh ubuntu@<your_node_ip>
