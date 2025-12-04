@@ -87,7 +87,7 @@ sudo docker run --rm --gpus all nvidia/cuda:12.2.0-base nvidia-smi
 
 ### 🧠 Step 3: Download the Dataset
 Download the dataset from Kaggle:
-Dataset Link: [Professional Chess Players sMRI and fMRI Dataset](https://www.kaggle.com/datasets/ajay2529kumar/professional-chess-players-smri-and-fmri-dataset) Once downloaded, extract the data into a folder named `chess_data` in your home directory:
+Dataset Link: [Professional Chess Players sMRI and fMRI Dataset](https://huggingface.co/datasets/xenificity/ProfessionalChessPlayersMRIData/resolve/main/chess_mri_bids.zip) Once downloaded, extract the data into a folder named `chess_data` in your home directory:
 
 ```
 mkdir -p ~/chess_data
